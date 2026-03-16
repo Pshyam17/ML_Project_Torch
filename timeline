@@ -1,0 +1,41 @@
+ sprint 1 · weeks 1–2 
+
+● submit/01 feat: baseline mamba on all 6 lra tasks
+│ files: models/mamba_baseline.py
+│ results/mamba_baseline.json
+│ tasks: listops imdb retrieval cifar pathfinder path-x
+│ notes: 
+
+● submit/02 feat: cms module port for mamba
+│ files: models/cms_module.py
+│ tests/test_cms_forward.py
+│ covers: read · write · fusion gate adapted from ssm hidden state
+│ notes: 
+
+● submit/03 feat: cms-mamba partial results (listops + imdb)
+│ files: notebooks/sprint1_partial_results.ipynb
+│ results/sprint1_table.csv
+│ notes: fast tasks first · validate cms integration before path-x?
+│ comparison table: mamba vs cms-mamba (2 tasks)
+
+ sprint 2 · weeks 3–4
+
+● submit/04 feat: cms-mamba on remaining 4 tasks
+│ files: results/sprint2_full_runs.json
+│ tasks: retrieval pathfinder path-x
+│ notes: 
+
+● submit/05 feat: ablation + profiling
+│ files: results/ablation_table.csv
+│ results/latency_memory_profile.json
+│ covers: no-cms vs cms per task · memory overhead · latency delta
+
+● submit/06 feat:  final results
+
+files: final_results/ (json + csv + plots)
+
+README.md · repo instructions
+review: tiago & preethi sign-off before merge → main
+
+Target
+# 6 PRs · 2 per week · merge by: end of week 2, 3, 4
